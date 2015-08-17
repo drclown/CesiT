@@ -3,7 +3,7 @@
 # Mail Chris : perso@kriyss.ninja
 
 # Groupe : 
-- CesiTorrent : 
+- CesiTorrent : https://github.com/Lalensia/CesiTorrent
 - TCesi : https://github.com/Maxsky5/TCesi
 - CeTsi : https://github.com/lukaslpzi/CeTsi
 
