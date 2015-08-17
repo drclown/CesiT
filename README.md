@@ -9,6 +9,7 @@
 
 
 # Liens : 
+- Example JHipster : https://github.com/kriyss/yo-sample-app
 - MongoDB spring : http://spring.io/guides/gs/accessing-mongodb-data-rest/
 - DataJPA spring : http://spring.io/guides/gs/accessing-data-jpa/
 - JHipster generator : https://jhipster.github.io/
