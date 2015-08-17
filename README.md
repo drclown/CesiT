@@ -4,8 +4,8 @@
 
 # Groupe : 
 - CesiTorrent : 
-- TCesi : 
-- CeTsi :
+- TCesi : https://github.com/Maxsky5/TCesi
+- CeTsi : https://github.com/lukaslpzi/CeTsi
 
 
 # Liens : 
