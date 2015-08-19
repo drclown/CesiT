@@ -1,0 +1,4 @@
+ninja\kriyss\repository\ITorrentRepository.class
+ninja\kriyss\controller\TorrentController.class
+ninja\kriyss\App.class
+ninja\kriyss\model\Torrent.class
