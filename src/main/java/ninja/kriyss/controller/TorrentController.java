@@ -3,8 +3,11 @@ package ninja.kriyss.controller;
 import com.turn.ttorrent.tracker.Tracker;
 import ninja.kriyss.model.Torrent;
 import ninja.kriyss.repository.ITorrentRepository;
+import org.apache.commons.io.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
