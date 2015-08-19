@@ -42,11 +42,9 @@ public class TorrentController {
 
     @RequestMapping(value = "/download/file", method = RequestMethod.GET)
     public void getFile(HttpServletResponse response) throws Exception{
-        // get the torrent File
-        File file = new File("C:/torrents/Chrysanthemum.jpg.torrent");
         response.setContentType(MediaType.APPLICATION_OCTET_STREAM_VALUE);
         response.setHeader("Content-disposition", "attachment; filename=Chrysanthemum.jpg.torrent");
-        IOUtils.copy(new FileInputStream(file), response.getOutputStream());
+        IOUtils.copy(new FileInputStream("C:/torrents/Chrysanthemum.jpg.torrent"), response.getOutputStream());
         response.flushBuffer();
     }
 }
