@@ -90,5 +90,4 @@ public class TorrentControllerTest {
                 .andExpect(jsonPath("$", Matchers.hasSize(6)))
                 .andExpect(jsonPath("$..name", hasItems("Torrent1", "Torrent2", "Torrent3", "Torrent4", "Torrent5", "filename.txt")));
     }
-
 }
